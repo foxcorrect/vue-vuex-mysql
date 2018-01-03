@@ -20,6 +20,7 @@ new Vue({
   store,
   template: '<App/>',
   components: { App },
+  //这是初始化加载
   mounted: function(){
     this.$store.dispatch('LOAD_USER_LIST')
   },

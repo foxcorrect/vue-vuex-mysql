@@ -1,12 +1,17 @@
 # vue-vuex
 
 > 结合Vuex的小实例
+> 前后端分离
+> 数据库表请自行创建
 
 ## Build Setup
 
 ``` bash
 # install dependencies
 npm install
+
+# 启动后台
+node server/index.js
 
 # serve with hot reload at localhost:8080
 npm run dev
